@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #474747;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.titulo{
+    background-color: #3d3636;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #ff5722;
+    text-decoration: underline;
+}
+
+#resumo-paragrafo {
+    font-style: italic;
+    color: #ffffff;
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+    color: #ff5722;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+a[href] {
+    color: #ff5722;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff5722;
+    text-decoration: underline;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+ul li:first-child {
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header figure img {
+    border-radius: 50%;
+    border: 3px solid #ff5722;
+}
+
+section figure {
+    display: inline-block;
+    margin: 10px;
+}
+
+section ol li {
+    font-style: oblique;
+    color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
